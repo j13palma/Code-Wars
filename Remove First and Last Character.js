@@ -11,4 +11,5 @@ function removeChar(str) {
   if (str.length > 2) {
     return (newStr = str.slice(1, -1));
   }
+  return str;
 }
