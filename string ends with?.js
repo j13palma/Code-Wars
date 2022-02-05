@@ -5,7 +5,7 @@
 // solution('abc', 'bc') // returns true
 // solution('abc', 'd') // returns false
 
-function solution(str, ending) {
+const solution = (str, ending) => {
   // TODO: complete
   let i = ending.length;
   let j = str.length;
@@ -17,4 +17,6 @@ function solution(str, ending) {
     }
   }
   return true;
-}
+};
+
+console.log(solution('abc', 'bc'));
